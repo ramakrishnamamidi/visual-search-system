@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.npy
+*.log
+*.DS_Store
+.env
+.vscode/
+.embeddings/
+data/images/
+data/processed/
+node_modules/
+frontend/.next/
+backend/__pycache__/
+
+# Ignore Python virtual environments
+venv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore embeddings
+*.json
+*.pkl
+*.npy
+
+
