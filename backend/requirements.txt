@@ -9,3 +9,14 @@ torch==2.1.2
 open-clip-torch==2.24.0
 numpy==1.26.4
 jupyter==1.1.1
+
+# Vector indexing            
+qdrant-client==1.7.0     
+pymilvus==2.4.0   
+
+# Visualization and analysis
+matplotlib==3.8.3
+plotly==5.20.0
+scikit-learn==1.4.2
+umap-learn==0.5.5
+seaborn==0.13.2           
