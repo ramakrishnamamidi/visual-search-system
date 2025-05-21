@@ -3,15 +3,15 @@ __pycache__/
 *.pyo
 *.pyd
 *.npy
+*.pkl
+*.index
 *.log
 *.DS_Store
 .env
 .vscode/
 .embeddings/
-data/images/
-data/processed/
-node_modules/
-frontend/.next/
+
+# Ignore Python cache files
 backend/__pycache__/
 
 # Ignore Python virtual environments
@@ -25,4 +25,14 @@ venv
 *.pkl
 *.npy
 
+# Ignore data files
+data/images/
+data/processed/
 
+# Ignore frontend files 
+frontend/public/image/
+node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+
+codebase.md

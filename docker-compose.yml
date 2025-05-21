@@ -7,6 +7,7 @@ services:
       - "8000:8000"
     volumes:
       - ./embeddings:/app/embeddings
+      - ./data/processed:/app/data/processed
     environment:
       - PYTHONUNBUFFERED=1
 
