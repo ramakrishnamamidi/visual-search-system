@@ -1,3 +1,5 @@
+## System Architecture: Visual Search Platform
+
 ```
 +-----------------+          +---------------------+          +---------------------+
 |     Web UI      +--------->    FastAPI Backend   +--------->  Semantic Search     |
